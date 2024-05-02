@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(to left, #042f66, #090e07);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+section h2 {
+    font-size: 4em;
+    margin-right: 10px; /* Adjust the margin as needed */
+    text-align: center;
+    flex: 0 0 30%; /* Set a fixed width for h2 elements */
+}
+
+section p {
+    font-size: 2em;
+    flex: 0 0 70%; /* Set a fixed width for p elements */
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+.logo{
+    width: 15%;
+    padding-left: 2%;
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+  }
+nav ul{
+    flex: 1;
+    text-align: right;
+  }
+nav ul li{
+    display: inline-block;
+    margin: 10px 30px;
+  }
+nav .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 5%;
+  }
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
